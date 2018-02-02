@@ -1,0 +1,178 @@
+*{ margin: 0; padding: 0; }
+li{ list-style: none; }
+a{ text-decoration: none; color: #333; }
+input,textarea,button{ outline: none; }
+textarea{ resize: none; }
+img{ vertical-align: top; }
+.fl{ float: left; }
+.fr{ float: right; }
+.clearfix:after{ content: ''; display: block; clear: both;}
+html,body{ font-size: 12px;  }
+body{   box-sizing: border-box; font-family:PingFangSC-Light,'helvetica neue','hiragino sans gb',arial,'microsoft yahei ui','microsoft yahei',simsun,sans-serif; height: 100%;  }
+#app{
+	height: 100%;
+}
+header{
+	width: 100%;
+}
+.media_bj{
+	background: url('../images/mediaBJ.png');
+	background-size: 100%;
+	padding-top: 15px;
+	padding-bottom: 44px;
+}
+.content{
+	width: 1000px;
+	margin: 0 auto;
+}
+.videoBox{
+	text-align: center;
+}
+.videoBox .videoEntity{
+	width: 720px;
+	height: 405px;
+}
+.videoBox .videoText{
+	color: #fff;
+	font-size: 18px;
+	line-height: 50px;
+}
+.conDetail{
+}
+.conBox{
+	position: relative;
+	text-align: center;
+}
+.conBox .conBar{
+	position: absolute;
+	width: 204px;
+	top: 27px;
+	left: 50%;
+	color: #fff;
+	font-size: 34px;
+	margin-left: -102px;
+}
+.conBox .conList{
+	width: 402px;
+	border-top: 1px solid #ce8080;
+	margin-top: 54px;
+}
+.conBox .conBJ{
+	width: 308px;
+	height: 308px;
+	background: url('../images/picBorder.png') #fff no-repeat 8px 7px;
+	background-size: 295px 296px;
+	margin-top: 110px;
+	margin-left: 46px;
+	transform: rotateZ(45deg)
+} 
+.conBox .conTest{
+	height: 1px;
+}
+.conBox .conPicBox{
+	width: 170px;
+	height: 170px;
+	margin: 25px 0 0 25px;
+	border-radius: 50%;
+	overflow: hidden;
+	transform: rotateZ(-45deg)
+}
+.conBox .conPic_detail{
+	color: #b70e1c;
+	line-height: 38px; 
+	font-size:18px;  
+	transform: rotateZ(-45deg) translate(40px);
+}
+.conBox .conTextBox{
+	
+	width: 386px;
+	transform: rotateZ(-45deg) translate(90px);
+	color: #fff;
+	line-height: 26px;
+	font-size: 18px;
+	margin-top: -10px;
+	margin-left: -10px;
+}
+.conTextBox .conText_Bar{
+	width: 23px;
+	height: 161px;
+	background: url('../images/picLeft.png') no-repeat;
+	border-radius: 10px;
+}
+.conTextBox .conText_Bar:nth-of-type(3){
+	background-image: url('../images/picRight.png')
+}
+.conTextBox .conText{
+	box-sizing: border-box;
+	width: 340px;
+	height: 130px;
+	background: url('../images/picCenter.png') no-repeat;
+	margin-top: 16px;
+	padding: 12px 14px 0;
+	text-align: left;
+
+}
+.listBox{
+	padding:0 20px;
+	margin: 30px 0 0;
+	line-height: 87px;
+	color: #fde0b6;
+	border: 1px solid #d89494;
+	border-right: none;
+	border-left: none;
+}
+.listBox a{
+	color: #fde0b6;
+}
+.listBox .list{
+	margin-right: 38px;
+	font-size: 18px;
+}
+.listBox .list:nth-last-of-type(1){
+	margin-right: 0px;
+}
+footer{
+	width: 1000px;
+	margin: 17px auto 0px;
+	text-align: center;
+}
+.coopMediaBox .coopHead{
+	color: #fff;
+	font-size: 34px;
+	font-weight: normal;
+	line-height: 64px;
+}
+.coopListBox .coopList{
+	width: 204px;
+	height: 70px;
+	margin-right:61px; 
+	margin-top: 26px;
+	background: #fff;
+}
+.coopListBox .coopList:nth-last-of-type(1){
+	margin-right: 0;
+}
+.coopListBox .coopList:nth-of-type(4){
+	margin-right: 0;
+}
+.coopTextBox .coopTextF{
+	margin: 40px 0;
+	font-size: 18px;
+	line-height: 30px;
+	color: #fde0b6;
+}
+.coopTextBox .coopTextS{
+	line-height: 26px;
+	color: #fde0b6;
+	font-size:14px;
+}
+
+
+/*@media screen and (max-width: 1000px) {
+	.content{
+		width: 500px;
+		margin: 0 auto;
+	}
+
+}*/
+
